@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo's</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Motivaatioikkuna -->
+<div id="motivationModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>💭 Päivän motivaatio</h2>
+        <p id="quoteText"></p>
+        <p id="quoteAuthor"></p>
+        <button id="closeModalBtn">Aloitetaan!</button>
+    </div>
+</div>
+
+<div class="app">
+    <!-- Sivupalkki -->
+    <aside class="sidebar">
+        <h1>Todo's</h1>
+        
+        <!-- Uusi lista -->
+        <div>
+            <input type="text" id="newListInput" placeholder="Uusi lista">
+            <button id="createListBtn">+</button>
+        </div>
+
+        <!-- Listat -->
+        <ul id="listsContainer"></ul>
+        
+        <!-- Päiväkirja -->
+        <div class="diary-section">
+            <h3>Viikkosuunnitelma</h3>
+            <textarea id="diaryText" placeholder="Mitä pitää tehdä..."></textarea>
+        </div>
+    </aside>
+
+    <!-- Pääsisältö -->
+    <main class="main">
+        <!-- Listan otsikko -->
+        <div class="list-header">
+            <h2 id="currentListTitle">Valitse lista</h2>
+            <button id="deleteListBtn">Poista lista</button>
+        </div>
+
+        <!-- Tehtävälomake -->
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Uusi tehtävä">
+            <button type="submit">Lisää</button>
+        </form>
+
+        <p id="errorMessage" class="error"></p>
+        
+        <!-- Tehtävälista -->
+        <ul id="taskList"></ul>
+
+        <!-- Edistyminen -->
+        <div class="progress-container">
+            <p>Edistyminen</p>
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+        </div>
+
+        <!-- Tilastot -->
+        <div class="analytics">
+            <h3>Tilastot</h3>
+            <p>Listoja: <span id="totalLists">0</span></p>
+            <p>Tehtäviä: <span id="totalTasks">0</span></p>
+            <p>Valmiita: <span id="doneTasks">0</span></p>
+        </div>
+    </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
