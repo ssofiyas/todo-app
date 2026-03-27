@@ -1,11 +1,11 @@
 # ToDo's – Tehtävienhallintasovellus
 
-**Tekijä:** [Oma nimesi]
+**Tekijä:** [Sofiya Sakhchinskaya]
 
 ## Verkkolinkit
 
-- 🌐 **Sovellus verkossa:** [lisää Netlify-linkki tähän](https://google.com)
-- 🎥 **Videoesittely:** [lisää YouTube- tai Vimeo-linkki tähän](https://google.com)
+- 🌐 **Sovellus verkossa:** [(https://todoapp-ssofiyas.netlify.app/)](https://google.com)
+
 
 ## Työn jakautuminen
 
@@ -20,10 +20,9 @@ Koska tein projektin yksin, vastasin kaikesta itse: suunnittelusta, koodauksesta
 - Pitämään koodin ymmärrettävänä ja johdonmukaisena.  
 
 **Parantamista olisi**  
-- Sovellus ei ole kovin responsiivinen – se toimii parhaiten työpöytäkokoisella näytöllä.  
-- Olisin voinut lisätä virheiden näyttämisen hienovaraisemmin kuin `alert`-viesteillä.  
-- Drag & drop -toiminto olisi ollut hieno lisä, mutta se jäi aikataulusyistä pois.  
-
+- Sovellus ei ole kovin responsiivinen, se toimii parhaiten työpöytäkokoisella näytöllä (yritän tuoda muutoksia tälle asialle).  
+- Olisin voinut lisätä virheiden näyttämisen hienovaraisemmin kuin `alert` viesteillä.  
+ 
 **Sovelluksesta jäi puuttumaan**  
 - Suodatuspainikkeet (näytä vain aktiiviset / vain tehdyt).  
 - Tehtävien muokkausmahdollisuus.  
@@ -42,8 +41,7 @@ Perustelen tätä sillä, että sovellus täyttää kaikki vaatimukset, toimii m
 
 ## Palaute opettajalle kurssista
 
-Kurssi on ollut erittäin hyödyllinen. Materiaalit ovat selkeitä ja esimerkit käytännönläheisiä. DOM-skriptaus ja lomakkeet tulivat tutuiksi.  
-Oppimistani tukisi, jos localStoragen käyttöä olisi harjoiteltu vielä enemmän ja jos olisi ollut mahdollisuus saada vertaispalautetta kesken projektin.
+Kurssi on erittäin hyödyllinen ja kiva, että käydän asioita yksityiskohdissa. Materiaalit ovat selkeitä ja helposti löydettävissä. DOM-skriptaus ja lomakkeet tulivat tutuiksi.
 
 ---
 
@@ -104,7 +102,3 @@ Projekti on toteutettu ainoastaan seuraavilla natiivitekniikoilla:
 ## Asennus
 
 Sovellus on täysin staattinen, joten se ei vaadi asennusta tai build vaihetta.
-
-1. **Lataa tai kloonaa repositorio**  
-   ```bash
-   git clone https://github.com/ssofiyas/todo-app.git
