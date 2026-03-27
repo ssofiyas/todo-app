@@ -81,9 +81,9 @@ Kurssi on erittäin hyödyllinen ja kiva, että käydän asioita yksityiskohdiss
 
 ## Kuvakaappaukset
 
-![Päänäkymä](photos/screenshot3.png)
+![Päänäkymä](photos/screenshot.png)
 
-![Päänäkymä](photos/screenshot4.png)
+![Päänäkymä](photos/screenshot2.png)
 
 ## Teknologiat
 
