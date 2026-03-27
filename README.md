@@ -81,11 +81,9 @@ Kurssi on erittäin hyödyllinen ja kiva, että käydän asioita yksityiskohdiss
 
 ## Kuvakaappaukset
 
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta:
+![Päänäkymä](photos/screenshot2.png)
 
-`![Päänäkymä](./screenshot.png)`
-
-(Ota kuvakaappaus ja tallenna se projektin juureen nimellä `screenshot.png`.)
+![Päänäkymä](photos/screenshot.png)
 
 ## Teknologiat
 
